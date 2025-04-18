@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário de Interesse</title>
+    <link rel="stylesheet" href="formulario.css">
+</head>
+<body>
+    <header>
+        <h1>Formulário de Interesse</h1>
+    </header>
+<!-- sessão feita para adicionar os itens do formulario,sendo todos Obrigatorios de se preencher com o comando required -->
+    <section>
+        <h2>Inscreva-se para saber mais sobre o curso!</h2>
+        <form action="#">
+            <!-- Caixa para colocar nome completo -->
+            <label for="nome">Nome Completo:</label>
+            <input type="text" id="nome" name="nome" required>
+<!-- Caixa de texto para cidade  -->
+            <label for="cidade">Cidade de Origem:</label>
+            <input type="text" id="cidade" name="cidade" required>
+<!-- Caixa para data de nascimento -->
+            <label for="data_nasc">Data de Nascimento:</label>
+            <input type="date" id="data_nasc" name="data_nasc" required>
+<!-- caixa para digitar seu telefone-->
+            <label for="telefone">Telefone:</label>
+            <input type="tel" id="telefone" name="telefone" required>
+
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Fatec Jahu - Gestão de TI</p>
+    </footer>
+</body>
+</html>

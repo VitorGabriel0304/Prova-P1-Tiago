@@ -1,0 +1,86 @@
+/* ajuste total de todo o texto dentro de body*/
+body {
+    font-family: 'Verdana', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+    color: #333;
+}
+
+/*ajustando o cabeçalho e cor do mesmo */
+header {
+    background-color: #0048a5;
+    color: white;
+    padding: 1em 0;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2em;
+}
+
+/* Seção , ajustando margens e altura e cores  */
+section {
+    margin: 20px auto;
+    padding: 20px;
+    max-width: 500px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+section h2 {
+    border-left: 5px solid #0048a5;
+    padding-left: 10px;
+    font-size: 1.5em;
+    color: #0048a5;
+    margin-bottom: 20px;
+}
+
+/* Ajutes do formulario, cores , caixar , botão*/
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+form label {
+    font-weight: bold;
+}
+
+form input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form input:focus {
+    border-color: #0048a5;
+    outline: none;
+}
+
+form button {
+    background-color: #0048a5;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+form button:hover {
+    background-color: #0066cc;
+}
+
+/* Rodapé */
+footer {
+    text-align: center;
+    background-color: #0048a5;
+    color: white;
+    padding: 15px 0;
+    margin-top: 20px;
+}
